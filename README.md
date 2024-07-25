@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang cá nhân của Nguyễn Văn Hành</title>
+    <title>Trang cá nhân của Nguyễn</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,26 +13,40 @@
             background-color: #f4f4f4;
         }
         header {
-            background: #3366CC;
+            background: #333;
             color: #fff;
-            padding: 10px 0;
+            padding: 20px 0;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            background: #0099FF;
+            background: #444;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         nav a {
             color: #fff;
-            padding: 10px 20px;
+            padding: 14px 20px;
             text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
         nav a:hover {
-            background: #333;
+            background: #555;
         }
         .container {
+            max-width: 1100px;
+            margin: auto;
             padding: 20px;
+        }
+        .container > section {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .container > section h2 {
+            margin-top: 0;
         }
         footer {
             background: #333;
@@ -42,12 +56,22 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                padding: 10px;
+                text-align: center;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Trang cá nhân của Hành V.N</h1>
+        <h1>Trang cá nhân của Nguyễn</h1>
     </header>
     <nav>
         <a href="#home">Trang Chủ</a>
@@ -82,4 +106,3 @@
     </footer>
 </body>
 </html>
-
