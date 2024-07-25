@@ -19,12 +19,16 @@
             color: #fff;
             padding: 20px 0;
             text-align: center;
+            width: 100%;
+            height: 100%;
         }
         nav {
             display: flex;
             justify-content: center;
             background: #444;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 100%;
         }
         nav a {
             color: #fff;
@@ -32,6 +36,8 @@
             text-decoration: none;
             text-transform: uppercase;
             letter-spacing: 1px;
+            width: 100%;
+            height: 100%;
         }
         nav a:hover {
             background: #555;
